@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36">
+  <diagram name="Trang-1" id="ZcyxtZ5YuLjCw4HGluC0">
+    <mxGraphModel dx="2212" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r-aAnJ1_4UTRrC_zMpfZ-1" parent="1" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" value="authors" vertex="1">
+          <mxGeometry height="70" width="100" x="-690" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="r-aAnJ1_4UTRrC_zMpfZ-2" parent="1" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" value="Books" vertex="1">
+          <mxGeometry height="70" width="100" x="-413" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="r-aAnJ1_4UTRrC_zMpfZ-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="AuthorID" vertex="1">
+          <mxGeometry height="40" width="100" x="-690" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="r-aAnJ1_4UTRrC_zMpfZ-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Name" vertex="1">
+          <mxGeometry height="40" width="100" x="-820" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="r-aAnJ1_4UTRrC_zMpfZ-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Birthyear" vertex="1">
+          <mxGeometry height="40" width="100" x="-740" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="r-aAnJ1_4UTRrC_zMpfZ-10" edge="1" parent="1" source="r-aAnJ1_4UTRrC_zMpfZ-1" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-640" y="280" />
+            </Array>
+            <mxPoint x="-710" y="440" as="sourcePoint" />
+            <mxPoint x="-640" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6u7RqT_CSSKnTLZ-NaK-1" parent="1" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="10" width="30" x="-720" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="o6u7RqT_CSSKnTLZ-NaK-3" edge="1" parent="1" source="r-aAnJ1_4UTRrC_zMpfZ-7" style="endArrow=none;html=1;rounded=0;exitX=0.63;exitY=-0.042;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-720" y="450" as="sourcePoint" />
+            <mxPoint x="-670" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6u7RqT_CSSKnTLZ-NaK-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="title" vertex="1">
+          <mxGeometry height="40" width="100" x="-400" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="o6u7RqT_CSSKnTLZ-NaK-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="PubishYear" vertex="1">
+          <mxGeometry height="40" width="100" x="-300" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="o6u7RqT_CSSKnTLZ-NaK-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="bookID" vertex="1">
+          <mxGeometry height="40" width="100" x="-413" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="o6u7RqT_CSSKnTLZ-NaK-7" edge="1" parent="1" source="r-aAnJ1_4UTRrC_zMpfZ-2" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-360" y="300" />
+              <mxPoint x="-350" y="275" />
+            </Array>
+            <mxPoint x="-350" y="320" as="sourcePoint" />
+            <mxPoint x="-350" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6u7RqT_CSSKnTLZ-NaK-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-283" y="345" />
+            </Array>
+            <mxPoint x="-313" y="375" as="sourcePoint" />
+            <mxPoint x="-263" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6u7RqT_CSSKnTLZ-NaK-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-400" y="460" as="sourcePoint" />
+            <mxPoint x="-400" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o6u7RqT_CSSKnTLZ-NaK-11" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="writes" vertex="1">
+          <mxGeometry height="60" width="90" x="-550" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="o6u7RqT_CSSKnTLZ-NaK-12" parent="1" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="10" width="50" x="-460" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="o6u7RqT_CSSKnTLZ-NaK-13" parent="1" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="10" width="50" x="-590" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="o6u7RqT_CSSKnTLZ-NaK-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="-600" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="o6u7RqT_CSSKnTLZ-NaK-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="-470" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="o6u7RqT_CSSKnTLZ-NaK-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Việc coi &lt;strong data-start=&quot;46&quot; data-end=&quot;81&quot;&gt;AUTHORS là thuộc tính của BOOKS&lt;/strong&gt; là sai về bản chất dữ liệu, vì:&lt;div&gt;&lt;h4 data-start=&quot;710&quot; data-end=&quot;762&quot;&gt;&amp;nbsp;Gây khó khăn khi cập nhật (Update Anomaly)&lt;/h4&gt;&lt;br/&gt;&lt;ul data-start=&quot;763&quot; data-end=&quot;856&quot;&gt;&lt;br/&gt;&lt;li data-start=&quot;763&quot; data-end=&quot;809&quot;&gt;&lt;br/&gt;Sửa tiểu sử → phải sửa ở &lt;strong data-start=&quot;790&quot; data-end=&quot;809&quot;&gt;tất cả các sách&lt;/strong&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li data-start=&quot;810&quot; data-end=&quot;856&quot;&gt;&lt;br/&gt;Nếu quên 1 chỗ → dữ liệu &lt;strong data-start=&quot;837&quot; data-end=&quot;856&quot;&gt;không đồng nhất&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="710" x="-780" y="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
